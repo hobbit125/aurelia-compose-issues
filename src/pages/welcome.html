@@ -1,0 +1,11 @@
+<template>
+  <!--
+    Notice that this path is not relative to this file, but is relative to app.js location (root or src)
+    In the past, I would have done:
+
+      <compose model.bind="user" view-model="../components/testcontrol"></compose>
+
+    If you do that now, it won't work.
+  -->
+  <compose model.bind="user" view-model="./components/testcontrol"></compose>
+</template>
